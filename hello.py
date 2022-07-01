@@ -6,5 +6,6 @@ def add(x, y):
 # var = # line added to test the failure in the build
 
 result = add(1, 2)
-print(f"This is the sum: 1, 2, {result}")
+print("This is the sum: 1, 2, %s" % result)
+# print(f"This is the sum: 1, 2, {result}")
 # print(f'This is the sum: {x}, {y}, {result}')
